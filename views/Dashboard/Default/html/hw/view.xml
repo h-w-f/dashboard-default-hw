@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view>
+	<head>
+		<title>Dashboard - HW</title>
+		<meta>
+			<name>viewport</name>
+			<content>width=device-width, initial-scale=1, shrink-to-fit=no</content>
+		</meta>
+		<meta>
+			<name>description</name>
+			<content>Dashboard Views</content>
+		</meta>
+		<meta>
+			<name>author</name>
+			<content>Guru</content>
+		</meta>
+		<link>
+			<remove>true</remove>
+			<href>/views/Dashboard/css/bootstrap.min.css</href>
+		</link>
+		<script>
+			<src>/views/Dashboard/js/jquery-3.5.1.min.js</src>
+		</script>
+		<script>
+			<remove>true</remove>
+			<src>/views/Dashboard/js/bootstrap.min.js</src>
+		</script>
+	</head>
+	<body>
+		<params>id="body" class="custom-body"</params>
+	</body>
+	<footer>
+		<params>class="custom-footer"</params>
+		<script>
+			<src></src>
+		</script>
+	</footer>
+</view>
