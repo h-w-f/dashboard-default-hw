@@ -20,14 +20,14 @@
 		</meta>
 		<link>
 			<remove>true</remove>
-			<href>/views/Dashboard/css/bootstrap.min.css</href>
+			<href>/views/Dashboard/Default/css/bootstrap.min.css</href>
 		</link>
 		<script>
-			<src>/views/Dashboard/js/jquery-3.5.1.min.js</src>
+			<src>/views/Dashboard/Default/js/jquery-3.5.1.min.js</src>
 		</script>
 		<script>
 			<remove>true</remove>
-			<src>/views/Dashboard/js/bootstrap.min.js</src>
+			<src>/views/Dashboard/Default/js/bootstrap.min.js</src>
 		</script>
 	</head>
 	<body>
