@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <view>
 	<name>Dashboard Default HW</name>
+	<displayname>Hello World Component View (Dashboard/Default)</displayname>
 	<description>Dashboard Default View for HW</description>
 	<version>0.0.1</version>
 	<repo>https://github.com/h-w-f/view-dashboard-default-hw</repo>
