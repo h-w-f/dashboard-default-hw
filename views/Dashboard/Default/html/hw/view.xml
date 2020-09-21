@@ -6,6 +6,11 @@
 	<version>0.0.1</version>
 	<repo>https://github.com/h-w-f/view-dashboard-default-hw</repo>
 	<dependencies>
+		<application>
+			<name>Dashboard</name>
+			<version>0.0.1</version>
+			<repo>https://github.com/h-w-f/application-dashboard</repo>
+		</application>
 		<component>
 			<name>Hw</name>
 			<version>0.0.1</version>
