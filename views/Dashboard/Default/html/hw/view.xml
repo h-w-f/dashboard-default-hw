@@ -40,6 +40,15 @@
 			<link>
 				<href>/views/Dashboard/Default/css/bootstrap.min.css</href>
 			</link>
+			<link>
+				<href>/views/Dashboard/Default/css/icheck.css</href>
+			</link>
+			<link>
+				<href>/views/Dashboard/Default/css/font-awesome.min.css</href>
+			</link>	
+			<link>
+				<href>/views/Dashboard/Default/css/PNotify.min.css</href>
+			</link>				
 			<script>
 				<src>/views/Dashboard/Default/js/jquery-3.5.1.min.js</src>
 			</script>
@@ -49,12 +58,26 @@
 		</head>
 		<body>
 			<params>id="body" class="custom-body"</params>
+			<jsscript>
+				<script type="text/javascript">
+					var x;
+				</script>
+			</jsscript>
 		</body>
 		<footer>
 			<params>class="custom-footer"</params>
 			<script>
-				<src></src>
+				<src>/views/Dashboard/Default/js/PNotify.min.js</src>
 			</script>
+			<script>
+				<src>/views/Dashboard/Default/js/swal2.min.js</src>
+			</script>			
+			<jsscript>
+				<script type="text/javascript">
+					PNotify.defaultModules.set(PNotifyBootstrap4, {});
+					PNotify.defaultModules.set(PNotifyFontAwesome5, {});
+				</script>
+			</jsscript>
 		</footer>
 	</settings>
 </view>
