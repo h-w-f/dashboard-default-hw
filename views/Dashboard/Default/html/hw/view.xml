@@ -19,6 +19,7 @@
 	</dependencies>
 	<settings>
 		<head>
+			<file>/Dashboard/Default/html/hw/view.html</file>
 			<title>Dashboard - HW</title>
 			<meta>
 				<name>viewport</name>
