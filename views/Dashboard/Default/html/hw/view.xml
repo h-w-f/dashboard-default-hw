@@ -59,9 +59,11 @@
 		<body>
 			<params>id="body" class="custom-body"</params>
 			<jsscript>
-				<script type="text/javascript">
-					var x;
-				</script>
+				<![CDATA[
+					<script type="text/javascript">
+						var x;
+					</script>
+				]]>
 			</jsscript>
 		</body>
 		<footer>
@@ -74,8 +76,10 @@
 			</script>			
 			<jsscript>
 				<script type="text/javascript">
-					PNotify.defaultModules.set(PNotifyBootstrap4, {});
-					PNotify.defaultModules.set(PNotifyFontAwesome5, {});
+					<![CDATA[
+						PNotify.defaultModules.set(PNotifyBootstrap4, {});
+						PNotify.defaultModules.set(PNotifyFontAwesome5, {});
+					]]>
 				</script>
 			</jsscript>
 		</footer>
