@@ -75,12 +75,12 @@
 				<src>/views/Dashboard/Default/js/swal2.min.js</src>
 			</script>			
 			<jsscript>
-				<script type="text/javascript">
-					<![CDATA[
+				<![CDATA[
+					<script type="text/javascript">
 						PNotify.defaultModules.set(PNotifyBootstrap4, {});
 						PNotify.defaultModules.set(PNotifyFontAwesome5, {});
-					]]>
-				</script>
+					</script>
+				]]>
 			</jsscript>
 		</footer>
 	</settings>
