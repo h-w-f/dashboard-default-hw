@@ -1,9 +1,9 @@
 {
-	"name"			: "Default",
-	"displayName" 	: "Dashboard Application View (Default)",
-	"description" 	: "Default Dashboard View",
+	"name"			: "DashboardDefaultHw",
+	"displayName" 	: "Component Hello World View (Default)",
+	"description" 	: "Component hello world view for Dashboard Default View",
 	"version"		: "0.0.1",
-	"repo"			: "https://github.com/h-w-f/view-dashboard-default",
+	"repo"			: "https://github.com/h-w-f/view-dashboard-default-hw",
 	"dependencies"	: {
 		"core"			: {
 			"name"		: "Core",
